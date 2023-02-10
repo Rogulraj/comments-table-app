@@ -1,0 +1,104 @@
+.tabular-main-container {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 567px) {
+   .tabular-main-container{
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+}
+.tabular-main-heading{
+    color: #009879;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 567px) {
+    .tabular-main-heading{
+        font-size: 20px;
+    }
+}
+
+.tabular-filter-rowcount-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.tabular-filter-text{
+    height: 40px;
+    width: 250px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    border-style: none;
+    border-radius: 5px;
+    padding: 15px;
+    outline: none;
+    box-shadow: 1px 1px 6px 1px #bfbfbf;
+}
+
+@media screen and (max-width: 567px) {
+    .tabular-filter-text{
+        height: 30px;
+        width: 120px;
+        font-size: 15px;
+    }
+}
+
+.tabular-filter-text:focus{
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightseagreen;
+    box-shadow: 1px 1px 10px 1px #34c9c144;
+}
+
+.tabular-rowcount{
+    height: 40px;
+    width: 250px;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 500;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    outline: none;
+    padding-left: 10px;
+    box-shadow: 1px 1px 6px 1px #bfbfbf;
+}
+@media screen and (max-width: 567px) {
+    .tabular-rowcount{
+        height: 30px;
+        width: 120px;
+        font-size: 15px;
+    }
+}
+
+.tabular-rowcount:focus{
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightseagreen;
+    box-shadow: 1px 1px 10px 1px #34c9c144;
+}
+
+.tabular-table-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabular-pagination-container{
+    margin-top: 30px;
+    margin-left: 20px;
+}
